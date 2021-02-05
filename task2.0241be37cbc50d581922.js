@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"7vwu":function(n,e,t){"use strict";t.r(e);t("L1EO"),t("lmye"),t("D/wG"),t("wCa+"),t("JBxO"),t("FdtR");var a=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0},{name:"Lux",active:!1}],c=function(n,e){return new Promise((function(t){t(n.map((function(n){return n.name===e?Object.assign({},n,{active:!n.active}):n})))}))},i=function(n){return console.table(n)};c(a,"Mango").then(i),c(a,"Lux").then(i)},L1EO:function(n,e,t){}},[["7vwu",0,1]]]);
+//# sourceMappingURL=task2.0241be37cbc50d581922.js.map

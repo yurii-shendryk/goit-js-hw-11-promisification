@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{L1EO:function(n,e,t){},vAYD:function(n,e,t){"use strict";t.r(e);t("L1EO"),t("JBxO"),t("FdtR");var o=function(n){return new Promise((function(e){setTimeout((function(){e("Resolved after "+n+" ms")}),n)}))},i=function(n){return console.log(n)};o(2e3).then(i),o(1e3).then(i),o(1500).then(i)}},[["vAYD",0,1]]]);
+//# sourceMappingURL=task1.a64bb431029ee693d41a.js.map
