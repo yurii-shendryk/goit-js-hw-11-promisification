@@ -39,7 +39,48 @@ module.exports = env => ({
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: 'index.html',
+      chunks: ['index'],
       template: './index.html',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'task1.html',
+      chunks: ['task1'],
+      template: './task1.html',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'task2.html',
+      chunks: ['task2'],
+      template: './task2.html',
+      minify: {
+        collapseWhitespace: true,
+        removeComments: true,
+        removeRedundantAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        useShortDoctype: true,
+      },
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'task3.html',
+      chunks: ['task3'],
+      template: './task3.html',
       minify: {
         collapseWhitespace: true,
         removeComments: true,
